@@ -137,12 +137,7 @@ See the [table of supported trajectory formats](https://docs.mdanalysis.org/stab
 Inside of structure files, the base unit is usually 1 Å, which will become 1 m inside of Blender and 1 nm will become 10 m.
 To scale things down to a more manageable size we re-scale the structure so that 1 nm will become 1 m.
 
-![](images/CleanShot%202022-05-19%20at%2013.21.32@2x.png)
-
-
-
-
-
+![Screenshot from 2023-04-11 11-38-53](https://user-images.githubusercontent.com/88675769/231292069-d088038f-01ba-4735-ab7c-dffbf3a6e973.png)
 
 
 # Nodes
