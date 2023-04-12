@@ -88,14 +88,27 @@ See the [table of supported topology formats](https://docs.mdanalysis.org/stable
 The file path to the trajectory file for import.
 See the [table of supported trajectory formats](https://docs.mdanalysis.org/stable/documentation_pages/coordinates/init.html#id2) for the formats that should be importable by Molecular Nodes.
 
-#### Frame Import Options
+#### Frame Import 
 
--   Start Frame: The first possible frame from the coordinate file to be imported into Blender
+-   Frame: 
 
--   Interval: Imports every *n* th frame from the trajectory.
-    1 will import all frames from the trajectory.
 
--   End Frame: The last possible frame from the coordinate file to be imported into Blender.
+
+#### Solute Selections Options
+
+-   Solute Name: 
+
+-   Solute String Selection: 
+
+
+#### Solvent Selections Options
+
+-   Solvent Name: 
+
+-   Solvent String Selection : 
+
+-   Solvent Shell Count: 
+
 
 #### Nanometre Scale
 
