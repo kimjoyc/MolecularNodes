@@ -8,6 +8,8 @@ from . import density
 from . import solv_ana
 import os
 
+from . import pkg
+
 # operator that calls the function to import the structure from the PDB
 class MOL_OT_Import_Protein_RCSB(bpy.types.Operator):
     bl_idname = "mol.import_protein_rcsb"
@@ -577,6 +579,7 @@ def MOL_PT_panel_ui(layout_function, scene):
         MOL_PT_panel_star_file(box, scene)
     elif panel_selection == 5:
         if not pkg.is_current('solvation-analysis'):
+            pkg.install_all_packages(pypi_mirror_provider='https://pypi.org/simple/')
             box.enabled = False
             box.alert = True
             box.label(text = "Please install solvation-analysis in the addon preferences.")
